@@ -19,7 +19,7 @@ export default function Login(){
             const result = await signInWithPopup(auth, googlePrivider);
             route.push("/");
         } catch(error){
-            console.log(eror);
+            console.log(error);
         };
     }
 
